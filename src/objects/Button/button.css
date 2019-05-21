@@ -1,0 +1,17 @@
+
+.custom-button{
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: transparent;
+    transition: all ease-in-out .1s;
+}
+
+.custom-button:not(:last-child){
+    margin-right: 10px;
+}
+
+.custom-button:hover{
+    color: skyblue;
+    transform: scale(1.1);
+}
